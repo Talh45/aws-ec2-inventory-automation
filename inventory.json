@@ -1,0 +1,32 @@
+[
+    {
+        "instance_id": "i-005f720c15e4a769d",
+        "state": "running",
+        "instance_type": "t3.micro",
+        "availability_zone": "us-east-1d",
+        "private_ip": "172.31.29.77",
+        "name": "dev-web-01",
+        "environment": "Dev",
+        "auto_start": "True"
+    },
+    {
+        "instance_id": "i-06425a772ddbc2a35",
+        "state": "running",
+        "instance_type": "t3.micro",
+        "availability_zone": "us-east-1d",
+        "private_ip": "172.31.29.67",
+        "name": "test-web-01",
+        "environment": "Test",
+        "auto_start": "True"
+    },
+    {
+        "instance_id": "i-03f17c2bf8dc657ee",
+        "state": "running",
+        "instance_type": "t3.micro",
+        "availability_zone": "us-east-1d",
+        "private_ip": "172.31.27.76",
+        "name": "dev-web-02",
+        "environment": "Dev",
+        "auto_start": "False"
+    }
+]
